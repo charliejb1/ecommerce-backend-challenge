@@ -1,12 +1,13 @@
 ## Title: 
  
-task-form-challenge 
+ecommerce-backend-challenge 
   
  ## Description: 
 
-In this project, 
+In this project, there were 4 models for the collection of ecommerce data. (Category, Product, Product-tag and tag) each model has certain attributes for inputing data, such as price, stock, name etc. The index.js of this model folder ensures that each model properly relates to one another such as "Product belongs to Category" so that when loaded in insomnia, product data will be associated with a particular caetgory. These models are then integrated with routes in the API folder. Each route either gets, posts, puts, or deletes data depending on the route called. There is an initial seeding of products to have categories, products, tag-routes and tags to have starting data. 
 
 Unable to accomplish:
+I was unable to get the update category,update product, delete product. update tag and delete tag routes to work without errors.
 
 
  ## Installation: 
